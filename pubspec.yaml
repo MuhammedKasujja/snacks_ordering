@@ -1,0 +1,41 @@
+name: snack_ordering
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  align_positioned: ^4.0.1
+  animate_do: ^3.3.4
+  animations: ^2.0.11
+  bloc: ^8.1.4
+  equatable: ^2.0.5
+  faker: ^2.1.0
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  flutter_bloc: ^8.1.6
+  flutter_staggered_animations: ^1.1.1
+  flutter_staggered_grid_view: ^0.7.0
+  get_it: ^7.7.0
+  iconsax: ^0.0.8
+  iconsax_plus: ^1.0.0
+  material_design_icons_flutter: ^7.0.7296
+  meta: ^1.12.0
+  staggered_grid_view_flutter: ^0.0.4
+  swipable_stack: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner:
+  flutter_gen_runner:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
